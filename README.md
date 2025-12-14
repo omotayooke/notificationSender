@@ -24,12 +24,14 @@ The following is required and must be installed to run this application on the s
 ## Build
 To build the program, open the directory where the program is, and type below command
 
-mvn clean package
+`mvn clean package`
 
 ## Run
 Run the program with the below command replacing values in "< >"
-java -jar <target/notificationSender-1.0.jar> <path/to/notification.json>
+
+`java -jar <target/notificationSender-1.0.jar> <path/to/notification.json>`
 
 ## Test
 To test the program, type below command
-mvn clean test
+
+`mvn clean test`
